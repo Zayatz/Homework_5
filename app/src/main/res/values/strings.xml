@@ -5,4 +5,8 @@
     <string name="input_message_hint_AM_XML">Сообщение:</string>
     <string name="button_send_email_text_AM_XML">Отправить</string>
     <string name="button_call_help_text_AM_XML">Звонок</string>
+    <string name="toast_access_denied_AM">Access denied</string>
+    <string name="toast_please_chage_decision_AM">I just want to call help. Please change your mind
+        and tap CallButton one more time</string>
+    <string name="help_phone_AM">0507775566</string>
 </resources>
