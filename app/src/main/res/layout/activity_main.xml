@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.zayatz.homework_5.MainActivity">
+
+    <EditText
+        android:id="@+id/etEmailAdress_AM"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/input_email_hint_AM_XML"/>
+
+    <EditText
+        android:id="@+id/etEmailSubject_AM"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textEmailSubject"
+        android:hint="@string/input_subject_hint_AM_XML"/>
+
+    <EditText
+        android:id="@+id/etEmailMessage_AM"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:inputType="textLongMessage"
+        android:hint="@string/input_message_hint_AM_XML"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSendEmail_AM"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/button_send_email_text_AM_XML"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnCallHelp_AM"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="@string/button_call_help_text_AM_XML"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

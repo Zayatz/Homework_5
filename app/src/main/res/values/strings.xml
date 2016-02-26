@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework_5</string>
+    <string name="input_email_hint_AM_XML">Кому:</string>
+    <string name="input_subject_hint_AM_XML">Тема:</string>
+    <string name="input_message_hint_AM_XML">Сообщение:</string>
+    <string name="button_send_email_text_AM_XML">Отправить</string>
+    <string name="button_call_help_text_AM_XML">Звонок</string>
+</resources>
