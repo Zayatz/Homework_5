@@ -8,5 +8,11 @@
     <string name="toast_access_denied_AM">Access denied</string>
     <string name="toast_please_chage_decision_AM">I just want to call help. Please change your mind
         and tap CallButton one more time</string>
-    <string name="help_phone_AM">0507775566</string>
+    <string name="help_phone_AM">0505989456</string>
+    <string name="toast_empty_email_adress_AM">Please, input email recipient</string>
+    <string name="toast_empty_email_subject_AM">Please, input email subject</string>
+    <string name="toast_empty_email_text_AM">Please, input email message</string>
+    <string name="toast_wrong_email_adress_AM">Invalid email adress</string>
+    <string name="toast_no_client_installed_AM">There is no email client installed</string>
+    <string name="send_to">Send via</string>
 </resources>

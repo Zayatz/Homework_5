@@ -12,20 +12,21 @@
     tools:context="com.zayatz.homework_5.MainActivity">
 
     <EditText
+        style="@style/item_style"
         android:id="@+id/etEmailAdress_AM"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
         android:inputType="textEmailAddress"
         android:hint="@string/input_email_hint_AM_XML"/>
 
     <EditText
+        style="@style/item_style"
         android:id="@+id/etEmailSubject_AM"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
         android:inputType="textEmailSubject"
         android:hint="@string/input_subject_hint_AM_XML"/>
 
     <EditText
+        style="@style/item_style"
         android:id="@+id/etEmailMessage_AM"
         android:layout_width="match_parent"
         android:layout_height="130dp"
@@ -39,14 +40,15 @@
         <Button
             android:id="@+id/btnSendEmail_AM"
             android:layout_width="wrap_content"
-            android:layout_height="45dp"
+            android:layout_height="@dimen/item_height"
             android:text="@string/button_send_email_text_AM_XML"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/btnCallHelp_AM"
             android:layout_width="wrap_content"
-            android:layout_height="45dp"
+            android:layout_height="@dimen/item_height"
             android:text="@string/button_call_help_text_AM_XML"
             android:layout_weight="1"/>
     </LinearLayout>
+
 </LinearLayout>
